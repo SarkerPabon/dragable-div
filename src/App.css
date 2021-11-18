@@ -1,0 +1,32 @@
+/*
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+
+.App {
+  width: 500px;
+  height: 500px;
+  text-align: center;
+  border: 10px solid #ccc;
+  position: relative;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+
+.item {
+  position: absolute;
+
+  background: #0085fe;
+  cursor:pointer;
+  z-index:100;
+  color: #fff;
+  border-radius: 10px;
+  user-select: none;
+  font-size: 1rem;
+  line-height: 3rem;
+}
